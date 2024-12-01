@@ -11,3 +11,4 @@ export const s = StyleSheet.create({
 
   footer: { height: 70 },
 });
+6
