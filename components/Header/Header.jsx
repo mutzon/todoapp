@@ -4,7 +4,7 @@ import { Image, Text } from "react-native";
 
 export function Header() {
   return (
-    <>
+    <>npx expo start
       <Image style={s.img} source={logoImg} resizeMode="contain"></Image>
       <Text style={s.subtitle}>You probably have something to do</Text>
     </>

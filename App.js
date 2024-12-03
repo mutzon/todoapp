@@ -7,7 +7,7 @@ import { CardTodo } from "./components/CardTodo/CardTodo";
 
 const TODO_LIST = [
   { id: 1, title: "walk the dog", isCompleted: true },
-  { id: 2, title: "go to the dentist", isCompleted: false },
+  { id: 2, title: "go to the dentist", isCompleted: true },
   { id: 3, title: "Learn react Native", isCompleted: false },
 ];
 
@@ -20,7 +20,7 @@ export default function App() {
             <Header></Header>
           </View>
           <View style={s.body}>
-            <CardTodo todo={TODO_LIST[0]} />
+            <CardTodo todo={TODO_LIST[1]} />
           </View>
         </SafeAreaView>
       </SafeAreaProvider>
